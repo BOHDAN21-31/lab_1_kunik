@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style_for_studik.css">
+    <title>Анкета студента</title>
+</head>
+<body>
+<div class="Button_perehod">
+    <a href="index.html">
+        <button class="perehodnik">Перейти на головнуу</button>
+    </a>
+</div>
+<div class="container">
+
+    <div class="header">
+        <div class="photo">
+           <img class="photo" src="photo/image0.jpg" alt=""photo>
+        </div>
+        <div class="info">
+            <h1>Кундіус Євгеній Владиславович</h1>
+            <p><strong>Дата народження:</strong> 24.01.2005</p>
+            <p><strong>Телефон:</strong> +38 (099) 000-00-00</p>
+            <p><strong>Email:</strong> studentocha.molodinkaya.2005@mail.com</p>
+        </div>
+    </div>
+
+    <h2>Освіта</h2>
+    <table>
+        <thead>
+        <tr>
+            <th style="width: 30%;">Період</th>
+            <th>Навчальний заклад</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Вересень 2019 — Червень 2023</td>
+            <td>Архітектор Сумський будівельний коледж"</td>
+        </tr>
+        <tr>
+            <td>Вересень 2023 — Наш час</td>
+            <td>Сумський Державний університет"</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h2>Професійні навички</h2>
+    <ul>
+        <li>HTML / CSS (Базовий рівень)</li>
+        <li>Робота з MS Office (Word, Excel)</li>
+        <li>Adobe Photoshop (Початковий рівень)</li>
+    </ul>
+
+    <h2>Володіння мовами</h2>
+    <ul>
+        <li>Українська — рідна</li>
+        <li>Англійська — середній рівень (B1)</li>
+    </ul>
+
+    <h2>Інтереси та Хобі</h2>
+    <ul>
+        <li>Програмування</li>
+        <li>Спорт (футбол)</li>
+        <li>Читання технічної літератури</li>
+    </ul>
+
+</div>
+<div class="container">
+    <h3>Анкета користувача</h3>
+    <p>Дайте відповіді на наступні запитання:</p>
+
+    <form method="POST" action="#">
+
+        <div class="form-group">
+            <label>Ваше ім'я:</label>
+            <input type="text" name="name" size="30">
+        </div>
+
+        <div class="form-group">
+            <label>Стать чоловіча</label>
+            <input type="radio" name="gender" value="male">
+        </div>
+
+        <div class="form-group">
+            <label>Стать жіноча</label>
+            <input type="radio" name="gender" value="female">
+        </div>
+
+        <div class="form-group">
+            <label>Діти</label>
+            <input type="text" name="children_text" size="20">
+
+            <ul>
+                <li>
+                    <label>
+                        <input type="checkbox" name="has_children" value="yes"> Є
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="has_children" value="no"> Немає
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="buttons">
+            <input type="submit" value="Відправити">
+            <input type="reset" value="Скинути">
+        </div>
+
+    </form>
+</div>
+
+<div class="login-card">
+    <p class="welcome-text">Вітаємо Вас на нашому сайті</p>
+
+    <form action="#">
+
+        <label>Введіть логін:</label>
+        <input type="text" name="login" placeholder="admin">
+
+        <label>Введіть пароль:</label>
+        <input type="password" name="parol" placeholder="•••••••">
+
+    </form>
+
+
+    <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_LUNJngOd30HT7IPSUAOZa9HrisJ_6HQQbQ&s" alt=Пошук"></p>
+    <a href="https://github.com/login" title="Google Search" >Знайти в Google</a>
+
+</div>
+</body>
+</html>

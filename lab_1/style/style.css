@@ -1,0 +1,257 @@
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.headers_h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 36px;
+    color: #000000;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+.pid_header {
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    align-items: end;
+    font-size: 18px;
+    color: #333333;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.headers_h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 24px;
+    color: #000000;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+.Phormula {
+    padding-left: 570px;
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    align-items: start;
+    text-decoration: line-through;
+    font-size: 12px;
+}
+.chemical-formula {
+    padding-left: 570px;
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    align-items: start;
+    font-size: 12px;
+    font-weight: bold;
+}.chemical-formula sub {
+     font-size: 70%;
+     vertical-align: -0.1em;
+ }
+.text_anymore {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: darkred;
+    background: black;
+    width: 20%;
+
+}
+.list-container {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.styled-list {
+
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    width: 300px;
+}
+
+.styled-list h3 {
+
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 10px;
+    margin-top: 0;
+    color: #007bff;
+    font-size: 1.5em;
+}
+
+.styled-list ul {
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.styled-list li {
+    padding: 10px 0;
+    border-bottom: 1px dashed #e0e0e0;
+    font-size: 1.1em;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.styled-list li:last-child {
+
+    border-bottom: none;
+}
+
+.weekend {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.styled-list li:hover {
+    background-color: #f0f8ff;
+    cursor: pointer;
+    color: #0056b3;
+}
+.monitor_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.monitor_Var_1 {
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+.table-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.table_section {
+    margin-top: 20px;
+    align-items: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    text-align: left;
+}
+
+thead {
+    background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+th {
+    padding: 18px 20px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+td {
+    padding: 15px 20px;
+    color: #555;
+    border-bottom: 1px solid #eee;
+    transition: all 0.3s ease;
+}
+
+tbody tr:hover {
+    background-color: #f1f9fc;
+    transform: scale(1.005);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    cursor: default;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+td:first-child {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.table-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead th {
+    background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    color: white;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    border: 2px solid #2575fc;
+}
+
+tbody td {
+    padding: 15px;
+    color: #555;
+
+    border: 2px solid #d4e6f1;
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+tbody tr:hover td {
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+.merged-cell {
+    font-weight: bold;
+    background-color: #fafafa;
+    color: #2c3e50;
+}
+.Button_perehod {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.perehodnik {
+    background-color: #000000;
+    color: #ff0063;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
